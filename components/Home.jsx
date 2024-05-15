@@ -4,7 +4,7 @@ import Menu from './Menu'
 import ListItems from './ListItems'
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
     <Banner/>
      <Menu/>
      <ListItems/>

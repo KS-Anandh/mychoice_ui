@@ -11,8 +11,7 @@ const Menu = () => {
             <div className="menu-about">
                 <h2>Explore our menu</h2>
                 <p>Greet the customers as soon as they walk through the door, say hello once they sit at the
-                    table, get drinks to them quickly, check on the customers within two minutes of delivering food, make sure to refill drinks,
-                    work with other team members and fill-in when needed, thoroughly bus the table, offer post-meal coffee</p>
+                    table, get drinks to them quickly, check on the customers within two minutes of delivering food, make sure to refill drinks </p>
             </div>
             <div className="menu-list">
 
