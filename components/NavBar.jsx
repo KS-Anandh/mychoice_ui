@@ -22,7 +22,7 @@ const NavBar = () => {
         const value=document.getElementById("select").value;
         if(value==='login'){
             login()}
-        navigate(`/${value}`);}
+        navigate(`/mychoice_ui/${value}`);}
    
   return (
     <div className='navBar'>
@@ -31,10 +31,10 @@ const NavBar = () => {
         </div>
         <div className="center-navBar">
             <ul>
-            {nav==='home'?<li style={{color:'orangered'}}><Link to="/">Home</Link></li>:<li onClick={()=>{setNav('home')}}><Link to="/">Home</Link></li>}
-            {nav==='Orders'?<li style={{color:'orangered'}}><Link to="/carts">My Cart</Link></li>:<li onClick={()=>{setNav('Orders')}}><Link to="/carts">My Cart</Link></li>}
-            {nav==='Contact'?<li style={{color:'orangered'}}><Link to="/orders">My Orders</Link></li>:<li onClick={()=>{setNav('Contact')}}><Link to="/orders">My Orders</Link></li>}
-            {nav==='About'?<li style={{color:'orangered'}}>About Us</li>:<li onClick={()=>{setNav('About')}}>About Us</li>}
+            {nav==='home'?<li style={{color:'orangered'}}><Link to="/mychoice_ui/">Home</Link></li>:<li onClick={()=>{setNav('home')}}><Link to="/mychoice_ui/">Home</Link></li>}
+            {nav==='Orders'?<li style={{color:'orangered'}}><Link to="/mychoice_ui/carts">My Cart</Link></li>:<li onClick={()=>{setNav('Orders')}}><Link to="/mychoice_ui/carts">My Cart</Link></li>}
+            {nav==='Contact'?<li style={{color:'orangered'}}><Link to="/mychoice_ui/orders">My Orders</Link></li>:<li onClick={()=>{setNav('Contact')}}><Link to="/mychoice_ui/orders">My Orders</Link></li>}
+            {nav==='About'?<li style={{color:'orangered'}}><Link to="/mychoice_ui/">About us</Link></li>:<li onClick={()=>{setNav('About')}}><Link to="/mychoice_ui/">About us</Link></li>}
             </ul>
             <select className='navBar-2' onChange={PageDirect} id="select" >
                 <option value="">Home</option>

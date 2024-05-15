@@ -22,10 +22,10 @@ const Footer = () => {
         <div className='company'> 
             <h2>Company</h2>
             <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/carts">My cart</Link></li>
-                <li><Link to="/orders">My Orders</Link></li>
-                <li><Link to="/">About us</Link></li>
+                <li><Link to="/mychoice_ui/">Home</Link></li>
+                <li><Link to="/mychoice_ui/carts">My cart</Link></li>
+                <li><Link to="/mychoice_ui/orders">My Orders</Link></li>
+                <li><Link to="/mychoice_ui/">About us</Link></li>
             </ul>
         </div>
 
@@ -34,7 +34,6 @@ const Footer = () => {
             <p>+91 9676906525<a href="tel:9676906525">: Click To Call</a></p>
             <p>Send email:<a href="mailto:nandhaanandh1432@gmail.com"> Click</a></p>
         </div>
-
        </div>
     </div>
   )

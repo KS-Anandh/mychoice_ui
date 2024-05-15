@@ -16,10 +16,10 @@ const App = () => {
       <BrowserRouter>
       <NavBar/>
       <Routes>
-         <Route path="/" element={<Home/>}/>
-         <Route path="/carts" element={<Cart/>}/>
-         <Route path="/orderPage" element={<OrderingPage/>}/>
-         <Route path="/orders" element={<Orders/>}/>
+         <Route path="/mychoice_ui/" element={<Home/>}/>
+         <Route path="/mychoice_ui/carts" element={<Cart/>}/>
+         <Route path="/mychoice_ui/orderPage" element={<OrderingPage/>}/>
+         <Route path="/mychoice_ui/orders" element={<Orders/>}/>
       </Routes>
       <Footer/>
       </BrowserRouter>
